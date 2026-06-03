@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/文件管理/文件管理.md",
+                "file": "note/进程管理/进程/进程的控制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文件管理"
+              "title": "进程的控制"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/文件管理/文件管理.md",
+                "file": "note/进程管理/进程/进程的控制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "文件管理 的反向链接列表"
+              "title": "进程的控制 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/文件管理/文件管理.md",
+                "file": "note/进程管理/进程/进程的控制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "文件管理 的出链列表"
+              "title": "进程的控制 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/文件管理/文件管理.md",
+                "file": "note/进程管理/进程/进程的控制.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "文件管理 的大纲"
+              "title": "进程的控制 的大纲"
             }
           },
           {
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,24 +196,35 @@
   },
   "active": "8d13442a8ff8af5b",
   "lastOpenFiles": [
-    "note/文件管理/文件管理(汇总).md",
-    "note/文件管理/硬链接.md",
-    "note/文件管理/文件系统.md",
-    "note/文件管理/FAT.md",
-    "note/文件管理/i节点.md",
-    "note/文件管理/文件管理.md",
-    "note/文件管理/目录.md",
+    "note/进程管理/进程/进程的状态.md",
+    "note/进程管理/进程/进程管理.md",
+    "note/进程管理/进程/进程模型.md",
+    "note/进程管理/进程/进程控制块.md",
+    "note/进程管理/线程/线程模型.md",
+    "note/进程管理/线程/线程.md",
+    "note/进程管理/死锁.md",
+    "note/进程管理/进程通信.md",
+    "note/进程管理/进程/原语.md",
+    "note/进程管理/进程/进程的控制.md",
     "note/文件管理/软链接.md",
-    "note/文件管理/文件.md",
-    "目录的实现.md",
-    "note/文件管理",
-    "note/死锁.md",
-    "().md",
+    "note/文件管理/目录.md",
+    "note/进程管理/调度.md",
+    "note/进程管理/线程",
+    "note/进程管理/进程/进程.md",
+    "note/文件管理/硬链接.md",
     "note/内存管理.md",
-    "note/进程管理.md",
-    "note/安全.md",
     "note/输入输出(IO).md",
     "note/概述.md",
-    "README.md"
+    "note/文件管理/文件.md",
+    "README.md",
+    "note/进程管理/进程",
+    "note/文件管理/FAT.md",
+    "note/文件管理/文件管理.md",
+    "note/文件管理/i节点.md",
+    "note/文件管理/文件管理(汇总).md",
+    "note/文件管理/文件系统.md",
+    "note/进程管理/进程/多道程序设计.md",
+    "note/进程管理",
+    "note/文件管理"
   ]
 }
