@@ -1,3 +1,16 @@
+---
+title: "FAT"
+category: "文件管理"
+layer: "文件管理"
+type: "专题笔记"
+status: "整理中"
+tags:
+  - "操作系统"
+  - "文件管理"
+aliases:
+  - "FAT"
+整理日期: 2026-06-17
+---
 采用内存中的表进行链表分配（FAT）
 FAT，即 File Allocation Table，是一种采用内存中文件分配表来管理磁盘块链表的文件系统实现方法。
 ![image.png|225](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/20260529143042888.png)
