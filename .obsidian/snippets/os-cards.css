@@ -1,0 +1,74 @@
+/* 操作系统笔记卡片样式 */
+
+.markdown-preview-view .callout,
+.markdown-source-view.mod-cm6 .callout {
+  border: 1px solid rgba(var(--callout-color), 0.35);
+  border-left-width: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+}
+
+.markdown-preview-view .callout-title,
+.markdown-source-view.mod-cm6 .callout-title {
+  font-weight: 700;
+}
+
+.callout[data-callout="concept"] {
+  --callout-color: 37, 99, 235;
+  --callout-icon: lucide-book-open;
+}
+
+.callout[data-callout="formula"] {
+  --callout-color: 5, 150, 105;
+  --callout-icon: lucide-sigma;
+}
+
+.callout[data-callout="warning"] {
+  --callout-color: 217, 119, 6;
+  --callout-icon: lucide-alert-triangle;
+}
+
+.callout[data-callout="example"] {
+  --callout-color: 124, 58, 237;
+  --callout-icon: lucide-list-checks;
+}
+
+.callout[data-callout="flow"] {
+  --callout-color: 8, 145, 178;
+  --callout-icon: lucide-route;
+}
+
+.callout[data-callout="compare"] {
+  --callout-color: 147, 51, 234;
+  --callout-icon: lucide-columns-3;
+}
+
+.callout[data-callout="exam"] {
+  --callout-color: 220, 38, 38;
+  --callout-icon: lucide-pencil-line;
+}
+
+.callout[data-callout="summary"] {
+  --callout-color: 15, 118, 110;
+  --callout-icon: lucide-list-tree;
+}
+
+.callout[data-callout="concept"] .callout-content strong,
+.callout[data-callout="formula"] .callout-content strong {
+  color: rgb(var(--callout-color));
+}
+
+.markdown-preview-view table,
+.markdown-source-view.mod-cm6 table {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+}
+
+.markdown-preview-view th,
+.markdown-source-view.mod-cm6 th {
+  background: var(--background-secondary);
+  font-weight: 700;
+}
