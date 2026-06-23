@@ -1,4 +1,108 @@
-/* 操作系统笔记卡片样式 */
+/* 操作系统笔记视觉优化 */
+
+.markdown-preview-view.os-home,
+.markdown-preview-view.os-index,
+.markdown-preview-view.os-chapter,
+.markdown-preview-view.os-cards,
+.markdown-source-view.mod-cm6.os-home,
+.markdown-source-view.mod-cm6.os-index,
+.markdown-source-view.mod-cm6.os-chapter,
+.markdown-source-view.mod-cm6.os-cards {
+  --os-accent: 37, 99, 235;
+  --os-green: 5, 150, 105;
+  --os-cyan: 8, 145, 178;
+  --os-red: 220, 38, 38;
+  --os-purple: 124, 58, 237;
+  --os-card-radius: 8px;
+}
+
+.markdown-preview-view.os-home h1,
+.markdown-preview-view.os-index h1,
+.markdown-preview-view.os-chapter h1,
+.markdown-preview-view.os-cards h1 {
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid rgba(var(--os-accent), 0.22);
+}
+
+.markdown-preview-view.os-home h2,
+.markdown-preview-view.os-index h2,
+.markdown-preview-view.os-chapter h2,
+.markdown-preview-view.os-cards h2 {
+  margin-top: 1.8rem;
+  padding-left: 0.65rem;
+  border-left: 4px solid rgba(var(--os-accent), 0.75);
+}
+
+.markdown-preview-view.os-home h3,
+.markdown-preview-view.os-index h3,
+.markdown-preview-view.os-chapter h3,
+.markdown-preview-view.os-cards h3 {
+  color: var(--text-normal);
+}
+
+.markdown-preview-view.os-home ul,
+.markdown-preview-view.os-index ul,
+.markdown-preview-view.os-chapter ul,
+.markdown-preview-view.os-cards ul {
+  padding-inline-start: 1.2rem;
+}
+
+.markdown-preview-view.os-home li,
+.markdown-preview-view.os-index li,
+.markdown-preview-view.os-chapter li,
+.markdown-preview-view.os-cards li {
+  margin: 0.25rem 0;
+}
+
+.markdown-preview-view.os-home a.internal-link,
+.markdown-preview-view.os-index a.internal-link,
+.markdown-preview-view.os-chapter a.internal-link,
+.markdown-preview-view.os-cards a.internal-link,
+.markdown-preview-view.os-home a.external-link,
+.markdown-preview-view.os-index a.external-link,
+.markdown-preview-view.os-chapter a.external-link,
+.markdown-preview-view.os-cards a.external-link {
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.markdown-preview-view.os-home table,
+.markdown-preview-view.os-index table,
+.markdown-preview-view.os-chapter table,
+.markdown-preview-view.os-cards table {
+  width: 100%;
+}
+
+.markdown-preview-view.os-home pre,
+.markdown-preview-view.os-index pre,
+.markdown-preview-view.os-chapter pre,
+.markdown-preview-view.os-cards pre {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--os-card-radius);
+}
+
+.markdown-preview-view.os-home blockquote,
+.markdown-preview-view.os-index blockquote,
+.markdown-preview-view.os-chapter blockquote,
+.markdown-preview-view.os-cards blockquote {
+  border-left: 4px solid rgba(var(--os-cyan), 0.65);
+  background: rgba(var(--os-cyan), 0.06);
+  border-radius: 0 var(--os-card-radius) var(--os-card-radius) 0;
+  padding: 0.35rem 0.8rem;
+}
+
+.markdown-preview-view.os-index > div > ul,
+.markdown-preview-view.os-chapter > div > ul {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--os-card-radius);
+  padding: 0.75rem 1rem 0.75rem 1.5rem;
+}
+
+.markdown-preview-view.os-cards .callout {
+  margin: 1rem 0;
+}
 
 .markdown-preview-view .callout,
 .markdown-source-view.mod-cm6 .callout {

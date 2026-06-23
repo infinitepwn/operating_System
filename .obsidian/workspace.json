@@ -11,10 +11,14 @@
             "id": "8d13442a8ff8af5b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "链接",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,9 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "README.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "README的笔记属性"
             }
           }
         ],
@@ -202,41 +208,41 @@
   },
   "active": "8d13442a8ff8af5b",
   "lastOpenFiles": [
-    "note/内存管理/虚拟内存.md",
-    "note/内存管理/页面置换算法.md",
-    "note/内存管理/无存储抽象.md",
-    "note/内存管理/伙伴算法.md",
-    "note/内存管理/空闲内存管理.md",
-    "note/内存管理/内存管理.md",
-    "note/内存管理/内存.md",
+    "note/概述/中断.md",
+    "note/概述/系统调用.md",
+    "note/概述/微内核.md",
+    "note/概述/上下文切换.md",
+    "note/概述/批处理系统.md",
+    "note/概述/缓存.md",
+    "note/概述/高速缓存.md",
+    "note/概述/概述.md",
     "README.md",
-    "note/文件管理/链表分配.md",
-    "note/文件管理/连续分配.md",
-    "note/文件管理/空闲块.md",
+    "index.md",
     "note/输入输出/磁盘.md",
-    "lab0.md",
-    "整理清单.md",
-    "引论习题.md",
-    "note/内存管理/地址空间.md",
-    "note/内存管理/交换.md",
-    "note/内存管理/动态地址重定位.md",
-    "note/补充卡片/文件与IO卡片.md",
-    "note/补充卡片/内存管理卡片.md",
-    "note/补充卡片/同步互斥卡片.md",
-    "note/补充卡片/进程与线程卡片.md",
-    "note/补充卡片/操作系统总览卡片.md",
-    "note/补充卡片/补充卡片索引.md",
-    "note/文件管理/固态硬盘.md",
+    "note/内存管理/多级页表.md",
+    "note/输入输出/与设备无关的IO软件.md",
+    "note/输入输出/中断驱动IO.md",
+    "note/输入输出/SPOOLing.md",
+    "note/输入输出/输入输出(IO).md",
+    "note/输入输出/IO硬件.md",
+    "note/输入输出/用户层IO软件.md",
+    "note/输入输出/程序控制IO.md",
+    "note/输入输出/IO软件层次.md",
+    "note/输入输出/设备驱动.md",
+    "note/输入输出/DMA.md",
+    "note/输入输出/IO控制.md",
+    "note/进程管理/调度/何时调度.md",
+    "note/进程管理/调度/先来先服务.md",
+    "note/进程管理/调度/最短作业优先.md",
+    "note/输入输出/用户层I",
+    "note/输入输出/与设备无关的I",
+    "note/输入输出/中断驱动I",
+    "note/输入输出/程序控制I",
+    "note/输入输出/I",
     "note/补充卡片",
-    "note/文件管理/超级块.md",
     "note/概述/I",
     "note/输入输出",
     "note/内存管理",
-    "note/进程管理/进程通信",
-    "note/概述",
-    "note/进程管理/调度",
-    "note/进程管理/线程",
-    "note/进程管理/进程",
-    "note/进程管理"
+    "note/进程管理/进程通信"
   ]
 }
